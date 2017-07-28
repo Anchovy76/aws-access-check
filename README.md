@@ -40,16 +40,13 @@ The script relies on some additional Python modules: boto3 and netcalc
 
 See all inbound rules for instance i-01234aaaaaaaaaaaa, IP 8.8.8.8
 
-```aws_access_check.py i-01234aaaaaaaaaaaa 8.8.8.8 ingress
-```
+`aws_access_check.py i-01234aaaaaaaaaaaa 8.8.8.8 ingress`
 
 See all outbound rules for instance i-01234aaaaaaaaaaaa, subnet 8.8.8.0/24
 
-```aws_access_check.py i-01234aaaaaaaaaaaa 8.8.8.0/24 egress
-```
+`aws_access_check.py i-01234aaaaaaaaaaaa 8.8.8.0/24 egress`
 
 See all inbound rules for instance i-01234aaaaaaaaaaaa, IP 8.8.8.8, ignore 0.0.0.0/0 prefix
 
-```aws_access_check.py i-01234aaaaaaaaaaaa 8.8.8.8 ingress -ignore 1
-```
+`aws_access_check.py i-01234aaaaaaaaaaaa 8.8.8.8 ingress -ignore 1`
 
