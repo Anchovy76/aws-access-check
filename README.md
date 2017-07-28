@@ -33,7 +33,7 @@ this purpose, with its own access id and access key.
 
 ### Installation
 
-The script relies on some additional Python modules: boto3 and netcalc
+The script relies on some additional Python modules: boto3 and netaddr
 (which can both be installed with pip).
 
 ### Examples

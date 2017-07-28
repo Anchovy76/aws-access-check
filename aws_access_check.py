@@ -73,7 +73,7 @@ else:
 
 client = boto3.client('ec2')
 
-# Collect a list of all security groups associated with an instance (instance name from args.name)
+# Collect a list of all security groups associated with an instance (instance name from args.instance_id)
 
 security_group_list = []
 
